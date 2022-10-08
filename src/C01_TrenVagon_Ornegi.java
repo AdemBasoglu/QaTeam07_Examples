@@ -1,7 +1,7 @@
 public class C01_TrenVagon_Ornegi {
     public static void main(String[] args) {
         String tren1 = "  ╔═══════════════╦";
-        String tren2 = "═╔╩ - T C D D -   ╚══╦";
+        String tren2 = "═╔╩  - T C D D -  ╚══╦";
         String tren3 = " ╚═══ÔÔÔ═══════ÔÔÔ═══╩";
 
         String vagon1 = "╔═══════════════════╦ ";
