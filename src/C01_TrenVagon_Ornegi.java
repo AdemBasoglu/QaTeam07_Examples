@@ -1,15 +1,15 @@
 public class C01_TrenVagon_Ornegi {
     public static void main(String[] args) {
-        String tren1 = "   ╔══════════════╦";
-        String tren2 = "═╔═┘ - T C D D -  ╚═══╦";
-        String tren3 = " ╚═══ÔÔÔ═══════ÔÔÔ════╩";
+        String tren1 = "  ╔═══════════════╦";
+        String tren2 = "═╔╩ - T C D D -   ╚══╦";
+        String tren3 = " ╚═══ÔÔÔ═══════ÔÔÔ═══╩";
 
 
         String vagon1 = "╔═══════════════════╦ ";
         String vagon2 = "|██  ██  ██  ██  ██ ╠═";
-        String vagon3 = "╚═══ÔÔ════ÔÔ═══ÔÔ═══┘ ";
+        String vagon3 = "╚═══ÔÔ════ÔÔ═══ÔÔ═══╩ ";
 
-        int kacDefa = 3;
+        int kacDefa = 1;
 
         for(int i = 1; i <= kacDefa; i++) {
             System.out.print(vagon1);
