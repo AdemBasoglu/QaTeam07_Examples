@@ -17,7 +17,7 @@ public class C03_LotoCekilisi {
         // Cekilen sayiyi tutan degisken
         int cekilenSayi;
 
-        // Cekilen tum sayilari tutan collection objesi (Dizisi)
+        // Cekilen tum sayilari tutan arraylist objesi (Dizisi)
         ArrayList<Integer> dizi = new ArrayList<Integer>();
 
         for(int i = min; i <= kacAdet; i++) {
