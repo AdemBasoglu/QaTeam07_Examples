@@ -4,12 +4,11 @@ public class C01_TrenVagon_Ornegi {
         String tren2 = "═╔╩ - T C D D -   ╚══╦";
         String tren3 = " ╚═══ÔÔÔ═══════ÔÔÔ═══╩";
 
-
         String vagon1 = "╔═══════════════════╦ ";
         String vagon2 = "|██  ██  ██  ██  ██ ╠═";
         String vagon3 = "╚═══ÔÔ════ÔÔ═══ÔÔ═══╩ ";
 
-        int kacDefa = 1;
+        int kacDefa = 4;
 
         for(int i = 1; i <= kacDefa; i++) {
             System.out.print(vagon1);
