@@ -24,5 +24,7 @@ public class C01_TrenVagon_Ornegi {
             System.out.print(vagon3);
             if(i == kacDefa) System.out.println(tren3);
         }
+
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------");
     }
 }
