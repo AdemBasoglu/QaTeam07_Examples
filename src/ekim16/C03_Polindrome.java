@@ -36,7 +36,5 @@ public class C03_Polindrome {
         } else {
             System.out.println("Bu sayi bir polindrome sayi degildir!");
         }
-
-
     }
 }
