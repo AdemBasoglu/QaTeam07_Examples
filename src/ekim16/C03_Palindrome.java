@@ -1,6 +1,6 @@
 package ekim16;
 
-public class C03_Polindrome {
+public class C03_Palindrome {
     public static void main(String[] args) {
 
         int sayi = 12321;
@@ -23,9 +23,9 @@ public class C03_Polindrome {
         }
 
         if(sayininIlkYarisi.equals(sayininSonYarisiTers)) {
-            System.out.printf("%d bir polindrome sayidir.", sayi);
+            System.out.printf("%d bir palindrome sayidir.", sayi);
         } else {
-            System.out.printf("%d bir polindrome degildir sayidir.", sayi);
+            System.out.printf("%d bir palindrome degildir sayidir.", sayi);
         }
     }
 }
