@@ -5,33 +5,20 @@ public class C03_Polindrome {
 
         int sayi = 1221;
         int sayininOrtasi;
-        String sayininIlkYarisi = "";
-        String sayininSonYarisi = "";
-
+        String sayininIlkYarisi;
+        String sayininSonYarisi;
+        String sayininSonYarisiTers = "";
         String strSayi = String.valueOf(sayi);
 
-        if(strSayi.length() % 2 != 0) {
-            sayininOrtasi = (int)(strSayi.length()+1)/2;
-        } else {
-            int sayininOrtasiIndex = (strSayi.length() / 2);
-            strSayi = strSayi.substring(0,sayininOrtasiIndex) + 'l' + strSayi.substring(sayininOrtasiIndex);
+
+        sayininIlkYarisi = (strSayi.substring(0, strSayi.length()/2));
+        sayininSonYarisi = (strSayi.substring(strSayi.length() /2 ));
+
+        for (int i = sayininSonYarisi.length()-1; i >=0 ; i--) {
+            sayininSonYarisiTers += sayininSonYarisi.charAt(i);
         }
 
-        for (int i = strSayi.length()-1; i >= 0 ; i--) {
-            if(strSayi.charAt(i) == 'l') {
-                break;
-            }
-            sayininIlkYarisi += strSayi.charAt(i);
-        }
-
-        for (int i = 0; i < strSayi.length(); i++) {
-            if(strSayi.charAt(i) == 'l') {
-                break;
-            }
-            sayininSonYarisi += strSayi.charAt(i);
-        }
-
-        if(sayininIlkYarisi.equals(sayininSonYarisi)) {
+        if(sayininIlkYarisi.equals(sayininSonYarisiTers)) {
             System.out.println("Bu sayi bir polindrome sayidir.");
         } else {
             System.out.println("Bu sayi bir polindrome sayi degildir!");
